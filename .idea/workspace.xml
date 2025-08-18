@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b138b22e-f4a1-4a0c-8c72-12f89c790c30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/DebitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/Upi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/OOPS/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/basics/Prac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/EditorMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/HistoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="31EvQ3MElbASPP9HbqkgRjbzyqz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,8 +38,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -63,5 +55,26 @@
       <updated>1755102029881</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/Client.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/HistoryManager.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/HistoryManager.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
