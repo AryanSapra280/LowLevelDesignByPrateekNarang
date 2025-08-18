@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b138b22e-f4a1-4a0c-8c72-12f89c790c30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/EditorMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/HistoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/mementoPattern/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/observerPattern/WithoutObserverPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/observerPattern/withObserverPattern/AppleWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/observerPattern/withObserverPattern/DevicesI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/observerPattern/withObserverPattern/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/observerPattern/withObserverPattern/SubjectI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/observerPattern/withObserverPattern/WeatherStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +41,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.WithoutObserverPattern.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="WithoutObserverPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lowleveldesign.behaviouralPatterns.observerPattern.withoutObserverPattern.WithoutObserverPattern" />
+      <module name="LowLevelDesignByPrateekNarang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lowleveldesign.behaviouralPatterns.observerPattern.withoutObserverPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WithoutObserverPattern" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
