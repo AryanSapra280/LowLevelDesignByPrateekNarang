@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b138b22e-f4a1-4a0c-8c72-12f89c790c30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithStrategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithStrategy/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithStrategy/DebitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithStrategy/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithStrategy/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithStrategy/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/strategyPattern/WithoutStrategy/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/BoldItalicTextCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/BoldTextCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withCommandPattern/UnderlineTextCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withoutCommandPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowleveldesign/behaviouralPatterns/commandPattern/withoutCommandPattern/TextEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.PaymentService.executor": "Run",
-    "Application.WeatherStation.executor": "Run",
-    "Application.WithoutObserverPattern.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithoutObserverPattern.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="WithoutObserverPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lowleveldesign.behaviouralPatterns.observerPattern.withoutObserverPattern.WithoutObserverPattern" />
